@@ -1,5 +1,6 @@
 import ExpenseItem from './components/Expenses/ExpenseItem';
 import Expenses from './components/Expenses/Expenses';
+import NewExpense from './components/New Expense/NewExpense';
 
 export default function Home() {
   const expenses = [
@@ -30,7 +31,7 @@ export default function Home() {
   ];
   return (
     <div>
-      <h2>Lets get Started!</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
