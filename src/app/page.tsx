@@ -1,4 +1,3 @@
-import ExpenseItem from './components/Expenses/ExpenseItem';
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/New Expense/NewExpense';
 
@@ -29,6 +28,7 @@ export default function Home() {
       date: new Date(2021, 5, 12),
     },
   ];
+
   return (
     <div>
       <NewExpense />
